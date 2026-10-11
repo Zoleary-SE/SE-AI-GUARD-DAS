@@ -15,7 +15,8 @@ Published on Docker Hub for amd64 and arm64.
     cd SE-AI-GUARD-DAS
     docker compose up -d --build
 
-Open http://localhost:8080 (set `PORT=8081` before the command if 8080 is taken) and enter the LLM and AI Guard details
+Open http://localhost:8080 (set `PORT=8081` before the command if 8080 is taken; set `BIND=0.0.0.0` to reach it
+from other machines — the app has no login, so only do this on a trusted network) and enter the LLM and AI Guard details
 (defaults: OpenAI `https://api.openai.com/v1`, model `gpt-5-nano`). They are saved in plain text to
 `./config/config.json`, which is git-ignored.
 

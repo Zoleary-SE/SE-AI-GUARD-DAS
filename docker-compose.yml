@@ -1,0 +1,9 @@
+services:
+  aiguard-chat:
+    build: .
+    image: se-ai-guard-das:latest
+    ports:
+      - "127.0.0.1:${PORT:-8080}:8080"
+    volumes:
+      - ./config:/config
+    restart: unless-stopped

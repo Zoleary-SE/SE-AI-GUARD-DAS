@@ -11,7 +11,7 @@ Published on Docker Hub for amd64 and arm64.
 
 ## Build from source
 
-    git clone https://github.com/Zoleary-com/SE-AI-GUARD-DAS.git
+    git clone https://github.com/Zoleary-SE/SE-AI-GUARD-DAS.git
     cd SE-AI-GUARD-DAS
     docker compose up -d --build
 

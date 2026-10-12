@@ -1,6 +1,6 @@
 # AI Guard Chat — design and AI Guard interaction
 
-Source: [`Zoleary-com/SE-AI-GUARD-DAS`](https://github.com/Zoleary-com/SE-AI-GUARD-DAS) (`app.py`, `requirements.txt`).
+Source: [`Zoleary-SE/SE-AI-GUARD-DAS`](https://github.com/Zoleary-SE/SE-AI-GUARD-DAS) (`app.py`, `requirements.txt`).
 Docker image: `tomzscaler/aiguard-chat:latest` on Docker Hub (amd64 and arm64).
 
 The app is a single 161-line Streamlit app that puts Zscaler AI Guard in front of and behind an LLM call.
